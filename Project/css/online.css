@@ -1,0 +1,294 @@
+ /**
+ This stylesheet is for Vendor side web pages.
+  **/
+ body  
+{
+	background: #FFFFFF;
+	margin: 0; 
+	padding: 0;
+	text-align: center; 
+	color: #000000;
+}
+.twoColFixLtHdr  #header
+{ 
+	background: #FFFFFF;
+	padding: 0 ;  
+	float:left;
+	width:100%;
+} 
+.twoColFixLtHdr #container 
+{ 
+	width: 960px;
+	background:#f6c35f;
+	margin: 0 auto; 
+	text-align: left; 
+}
+.twoColFixLtHdr #container1 
+{ 
+	width: 960px; 
+	background:#FFFFFF;
+	margin: 0 auto; 
+	text-align: left; 
+} 
+.twoColFixLtHdr #sidebar1 
+{
+	float: left; 
+	width: 210px;
+	margin-left:5px;
+	padding-top:8px;
+}
+* html .twoColFixLtHdr #sidebar1 
+{
+	margin-left:2px;
+}
+.twoColFixLtHdr #subsidebar1 
+{
+	background-color:#FFFFFF;
+	font:14px Verdana;
+	width:90%;
+	text-indent:3px;
+	border:1px solid #cf9526;
+	vertical-align:top;
+	color:#993300;
+	font-weight:bold;
+	margin-bottom:20px;
+	float:left;
+	margin-right:10px;
+}
+.twoColFixLtHdr #subsidebar3 
+{
+	background-color:#f5deb3;
+	font:14px Verdana, Arial, Helvetica, sans-serif;
+	width:99%;
+	vertical-align:top;
+	color:#111111;
+	font-weight:bold;
+	padding-top:2px;
+	padding-left:1%;
+	height:30px;
+	border-bottom:1px solid #cf9526;
+}
+.twoColFixLtHdr #subsidebar2 
+{
+	background:#eeeeee;
+	font:12px Verdana;
+	font-size:12px;
+	border-bottom:1px solid #f6b45f;
+	height:15px;
+	padding-bottom:5px;
+	padding-top:10px;
+	width:99%;
+	padding-left:1%;
+	color:#000000;
+}
+.twoColFixLtHdr #subsidebar2 a 
+{
+	font:12px Verdana;
+	height:15px;
+	color:#000000;
+	text-decoration:none;
+}
+.twoColFixLtHdr #subsidebar2 a:hover 
+{
+	color:#c53b1c;
+}
+.twoColFixLtHdr #subsidebar4 
+{
+	background:#eeeeee;
+	font:12px Verdana;
+	font-size:12px;
+	border-bottom:1px solid #f6b45f;
+	height:15px;
+	padding-bottom:47px;
+	padding-top:10px;
+	width:99%;
+	padding-left:1%;
+	color:#000000;
+}
+.twoColFixLtHdr #subsidebar5
+{
+	background:#eeeeee;
+	font:12px Verdana;
+	font-size:12px;
+	border-bottom:1px solid #f6b45f;
+	height:auto;
+	padding-bottom:7px;
+	padding-top:10px;
+	width:99%;
+	padding-left:1%;
+	color:#000000;
+}
+.twoColFixLtHdr #mainContent 
+{ 
+	margin: 0 0 0px 200px; 
+	padding: 0 0px 0 30px;
+	background-color:#eeeeee;
+	border:1px solid #bbbbbb;
+} 
+.twoColFixLtHdr #mainContent1 
+{
+	width:99%;
+	background:#eeeeee;
+	padding-bottom:10px;
+}
+.twoColFixLtHdr #middletxtheadermain
+{
+	background:#fff;
+	padding:5px;
+	border:1px dotted #aaaaaa;
+	width:95%;
+	margin-top:10px;
+}
+.twoColFixLtHdr #middletxtheader
+{
+	font:14px Verdana;
+	background:#c53b1c;
+	padding:5px;
+	text-align:justify;
+	color:#fff;
+	font-weight:bold;
+}
+.twoColFixLtHdr #middletxt1
+{
+	border:1px solid #e4e3e3;
+	font:11px Verdana;
+	padding:5px;
+	text-align:justify;
+}
+.twoColFixLtHdr #middletxt
+{
+	width:95%;
+	border:1px solid #e1e1e1;
+	font:11px Verdana;
+	margin-top:20px;
+	background:#ffffff;
+	padding:5px;
+	text-align:justify;
+}
+.twoColFixLtHdr #formhedear
+{ 	
+	font:Verdana; 
+	font-size:14px; 
+	font-weight:bold; 
+	color:#fff;
+	text-align:left; 
+	background:#c53b1c; 
+	padding-left:5px; 
+	height:30px; 
+	padding-top:3px;
+}
+.req 
+{   
+	color:red;
+}
+.clearfloat 
+{ 
+	clear:both;
+    height:0;
+    font-size: 0px;
+    line-height: 0px;
+	background:#FFFFFF;
+}
+.twoColFixLtHdr #footer
+ { 
+	font:9px Verdana, Arial, Helvetica, sans-serif;
+	border-top:2px solid #f3c518;
+	width:960px;
+	padding-top:10px;
+	color:#333366;
+	background:#F5F5FA;
+	text-align:center;
+} 
+.twoColFixLtHdr #footer a 
+{
+	color:#333366; 
+	text-decoration:none
+}
+.twoColFixLtHdr #footer p 
+{
+	margin: 0; 
+	padding: 10px 10px 5px 10px ;  
+	background:#F5F5FA;
+}
+img
+{
+	border:none;
+}
+.protblhder
+{
+	text-align:center;
+	font-weight:bold;
+}
+.addderrw
+{
+	width:30px;
+	cursor:pointer;
+	background:#a97bc1;
+	border:none;
+	color:#fff;
+	font-size:15px;
+}
+.txtbxintr
+{
+	width:90%;
+}
+.example 
+{ 
+	font:Verdana; 
+	font-size:9px; 
+	color:#555555; 
+}
+.imglink
+{
+	color:#c43b1d;
+}
+.imglink a:link
+{
+	color:#c43b1d;
+}
+.imglink a:visited
+{
+	color:#c43b1d;
+}
+.imglink a:hover
+{
+	color:#c43b1d;
+}
+#charsLeft1
+{
+	font-size:11px;
+	font:Verdana;
+	color:#cb5237;
+}
+#charsLeft2
+{
+	font-size:11px;
+	font:Verdana;
+	color:#cb5238;
+}
+#charsLeft3
+{
+	font-size:11px;
+	font:Verdana;
+	color:#cb5237;
+}
+#charsLeft4
+{
+	font-size:11px;
+	font:Verdana;
+	color:#cb5237;
+}
+.req 
+{
+	color:red;
+}
+.style4 
+{
+	font-size: 10px
+}
+.style3 
+{
+	font-size: 9px
+}
+
+

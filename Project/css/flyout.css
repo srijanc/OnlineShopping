@@ -1,0 +1,18 @@
+ /**
+ This stylesheet is part of the java script For Drop down
+  **/
+ * {padding:0; margin:0}
+body {font:12px Verdana, Arial, Helvetica}
+#wrapper {width:190px; padding:0px; margin:0 auto}
+#leftcolumn {float:left; width:225px}
+#rightcolumn {float:left; width:525px}
+.dropdown {display:block; position:relative}
+.dropdown dt {width:180px; border:0px solid #9ac1c9; padding:0px; font-weight:bold; cursor:pointer; background:url(images/header.gif)}
+.dropdown .upperdd {border-bottom:none}
+.dropdown dt:hover {background:url(images/header_over.gif)}
+.dropdown dd {position:absolute; top:0; overflow:hidden; width:208px; display:none; background:#fff; opacity:0}
+.dropdown ul {width:204px; border:2px solid #f6b45f; list-style:none}
+.dropdown li {display:inline}
+.dropdown a, .dropdown a:active, .dropdown a:visited {display:block; padding:5px; color:#333; text-decoration:none; background:#eeeeee; width:194px}
+.dropdown a:hover {background:#FFFFFF; color:#000}
+.dropdown .underline {border-bottom:1px solid #f6b45f}
